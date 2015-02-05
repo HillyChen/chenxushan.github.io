@@ -1,0 +1,122 @@
+
+.container{
+	width: 1000px;
+	height: 1000px;
+	margin: 100px auto;
+	position: relative;
+}
+img{
+	width: 300px;
+	height: 400px;
+	padding: 10px 10px 15px;
+	background: #fff;
+	border: 1px solid #ddd;
+	position: absolute;
+	/*top: 50px;
+	left: 200px;*/
+	/*-webkit-transform:rotate(20deg);
+	-moz-transform:rotate(20deg);
+	transform:rotate(20deg);*/
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	transition:0.5s;
+}
+img:hover{
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	transform:rotate(0deg);
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+	box-shadow: 10px 10px 15px #ccc;
+	z-index:2;
+}
+
+.pic1{
+	left:400px;
+	top: 0;
+	-webkit-transform:rota te(-5deg);
+	-moz-transform:rotate(-5deg);
+	transform:rotate(-5deg);
+	z-index: 1;
+}
+.pic2{
+	left:600px;
+	top: 0;
+	-webkit-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	transform:rotate(-20deg);
+	z-index: 1;
+}
+.pic3{
+/*	left:0px;
+	top: 0px;*/
+	bottom: 0;
+	right: 0;
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	transform:rotate(5deg);
+	z-index: 1;
+}
+.pic4{
+	/*left:20px;
+	top: 50px;*/
+	bottom: 0;
+	left: 300px;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	transform:rotate(-10deg);
+	z-index: 1;
+}
+.pic5{
+	/*left:0px;
+	top: 0px;*/
+	bottom:0;
+	left:800;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	transform:rotate(-10deg);
+	z-index: 1;
+}
+.pic6{
+	right:750;
+	top: 0;
+	-webkit-transform:rotate(10deg);
+	-moz-transform:rotate(10deg);
+	transform:rotate(10deg);
+	z-index: 1;
+}
+.pic7{
+	left:800px;
+	top: 0;
+	-webkit-transform:rotate(20deg);
+	-moz-transform:rotate(20deg);
+	transform:rotate(20deg);
+	z-index: 1;
+}
+.pic8{
+	/*left:20px;
+	top: 50px;*/
+	bottom: -20px;
+	right: 730px;
+	-webkit-transform:rotate(5deg);
+	-moz-transform:rotate(5deg);
+	transform:rotate(5deg);
+	z-index: 1;
+}
+.pic9{
+	left:550px;
+	top: 90px;
+	-webkit-transform:rotate(15deg);
+	-moz-transform:rotate(15deg);
+	transform:rotate(15deg);
+	z-index: 1;
+}
+.pic10{
+	left:180px;
+	top: 20px;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	transform:rotate(-10deg);
+	z-index: 1;
+}
